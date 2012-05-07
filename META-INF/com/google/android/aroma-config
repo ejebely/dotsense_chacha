@@ -23,7 +23,7 @@
 #- Touch screen calibration information
 calibrate("1.9963","19","2.3056","41");
 #- Installer theme
-theme("sense");
+theme("miui4");
 #- Name
 ini_set("rom_name",             ".sense");
 #- Version
