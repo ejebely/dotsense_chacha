@@ -908,7 +908,7 @@ setvar("retstatus",
       "Installing",
 	
 	#-- Installation Process message
-	  "This won't take too long... go make a drink of Pepsi and it will be done by the time you get back!",
+	  "This won't take to long... go make a drink of Pepsi and it will be done by the time you get back!",
 	
 	#-- Installation Icon
       "@install",

@@ -199,7 +199,7 @@ ui_print("@Kernel installation");
       package_extract_dir("devicesupport/chacha/kernels/ChachaKernel1", "/tmp");
        write_raw_image("/tmp/boot.img", "boot");
        delete("/tmp/boot.img");
-      package_extract_dir("devicesupport/salsa/modules/ChachaKernel1", "/system/lib/modules");
+      package_extract_dir("devicesupport/chacha/modules/ChachaKernel1", "/system/lib/modules");
     endif;
 
 #- Heroc
