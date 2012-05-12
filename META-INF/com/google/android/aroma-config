@@ -23,7 +23,7 @@
 #- Touch screen calibration information
 calibrate("1.9963","19","2.3056","41");
 #- Installer theme
-theme("sense");
+theme("miui4");
 #- Name
 ini_set("rom_name",             ".sense");
 #- Version
@@ -396,7 +396,9 @@ if prop("device.prop","selected")=="4" then
 	  # TITLE            |  SUBTITLE                                                 | Initial Value #
 	  #------------------+-----------------------------------------------------------+---------------#
 
-	    "Modified stock",          "Modified Salsa stock to boot with Sense 3.5 kernel. But also works on the HTC ChaCha",                    "@personalize"
+	    "Modified stock",          "Modified ChaCha stock 2.1 (UNSAFE)",                    "@personalize"
+            "Safe Salsa",              "Safe Modifid Salsa kernel. Basic features work.",       "@personalize"
+
 
   );
 endif;
