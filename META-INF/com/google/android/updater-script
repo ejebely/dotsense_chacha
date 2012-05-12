@@ -202,6 +202,16 @@ ui_print("@Kernel installation");
       package_extract_dir("devicesupport/salsa/modules/ChachaKernel1", "/system/lib/modules");
     endif;
 
+if
+      file_getprop("/tmp/aroma/kernel-chacha.prop","selected") == "2"
+    then
+      ui_print("Installing kernel...");
+      package_extract_dir("devicesupport/chacha/kernels/ChachaKernel2", "/tmp");
+       write_raw_image("/tmp/boot.img", "boot");
+       delete("/tmp/boot.img");
+      package_extract_dir("devicesupport/salsa/modules/ChachaKernel2", "/system/lib/modules");
+    endif;
+
 #- Heroc
 
     if
