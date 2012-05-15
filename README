@@ -1,0 +1,20 @@
+.sense for the HTC ChaCha
+This is the progress of the Sense 3.5 for the HTC ChaCha.
+
++Data
++GPS
++GPU
+
+-WiFi
+-Bluetooth
+-Backlight Keyboard
+
+Have a look and see what you can add please.
+
+-NOTE- This is not the full source just the folder which is required for flashing. New HTC ChaCha kernel will be on my git at a later time.
+
+-ANOTHER GREAT NOTE-
+If you download beware that the current work may not be safe and any ChaCha bricks is your fault.
+
+
+Thanks Luke Arran
