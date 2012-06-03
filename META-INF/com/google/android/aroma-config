@@ -11,7 +11,7 @@
 # some bugs fixed by jmztaylor and skippycentral.
 #
 # Thanks to amarullz for the original AROMA installation manifest
-
+# Added HTC ChaCha as an option - Lucas Arran
 
 # [[Build information]]
 #
@@ -23,7 +23,7 @@
 #- Touch screen calibration information
 calibrate("1.9963","19","2.3056","41");
 #- Installer theme
-theme("sense");
+theme("dotsense2");
 #- Name
 ini_set("rom_name",             ".sense");
 #- Version
@@ -908,7 +908,7 @@ setvar("retstatus",
       "Installing",
 	
 	#-- Installation Process message
-	  "This won't take to long... go make a drink of Pepsi and it will be done by the time you get back!",
+	  "This won't take too long... go make a drink of Pepsi and it will be done by the time you get back!",
 	
 	#-- Installation Icon
       "@install",
@@ -936,8 +936,6 @@ viewbox(
   #-- Text
     "<#selectbg_g><b>Congratulation...</b></#>\n\n"+
     ".sense has been installed on your HTC ChaCha. "+
-	"Thanks to Benjamin Gwynn for .sense! "+
-	"If you want any news, follow me on twitter @lucasarran "+
 "Installer Status: "+getvar("retstatus"),
 
   #-- Icon
