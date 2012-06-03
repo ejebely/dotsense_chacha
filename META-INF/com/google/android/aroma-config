@@ -549,7 +549,7 @@ if prop("installtype.prop","selected")=="2" then
     #-- Will be saved in /tmp/aroma/mods.prop
       "mods.prop",
 	  
-	  #-----------------------------------[ Selectbox With Groups ]----------------------------------#
+#-----------------------------------[ Selectbox With Groups ]----------------------------------#
 	  # TITLE            |  SUBTITLE                                                 | Initial Value #
 	  #------------------+-----------------------------------------------------------+---------------#
 	  
@@ -559,7 +559,7 @@ if prop("installtype.prop","selected")=="2" then
 		"CM7",     "Fancy a bit of CM7?",                              0,      #-- selected.1 = 3
 	  
           "Keyboard",                "",                                              2,  #-- Group 2. key = "selected.2"
-	    "HTC Keyboard",   "Stock HTC ChaCha Keyboard",                            1,      #-- selected.2 = 1
+	    "HTC Keyboard",   "Use only this one for HTC ChaCha",                            1,      #-- selected.2 = 1
 	    "Gingerbread",    "Normal Gingerbread keyboard",                          0,      #-- selected.2 = 2
 
 	  "Music",           "",                                                      2,  #-- Group 3. key = "selected.3"
@@ -583,14 +583,14 @@ if prop("installtype.prop","selected")=="2" then
 	  "Camera",                "",                                                2,  #-- Group 6. key = "selected.6"
 	    "MIUI",             "Fast and friendly, fully working",                   0,      #-- selected.6 = 1
 		"Sense 3.5",        "No option for camera flash",                         0,      #-- selected.6 = 2
-		"Sense ChaCha",        "Stock HTC Camera app",                      1,      #-- selected.6 = 3
+		"Sense 2.1",        "Old camera app from Sense 2.1",                      1,      #-- selected.6 = 3
 
 	  "Lockscreen",                "",                                            2,  #-- Group 7. key = "selected.7"
 	    "New",             "New ring lockscreen",                                 0,      #-- selected.7 = 1
 		"Old",             "Experimental old swipe down lockscreen",              0,      #-- selected.7 = 2
 		"Gingerbread",     "Experimental default Gingerbread lock",               0,      #-- selected.7 = 3
 		"4.0 Lockscreen",  "Sense 4.0 Lockscreen",                         1,      #-- selected.6 = 4
-		"ChaCha lockscreen",  "HTC ChaCha's stock lockscreen",                         1,      #-- selected.6 = 5
+		"Black Lock Ring",  "Made by BigBearEvo. Enjoy.",                         1,      #-- selected.6 = 5
 
 	  "Audio Enchatments",                "",                                     2,  #-- Group 8. key = "selected.8"
 	    "None",            "Keep stock audio stuff",                              1,      #-- selected.8 = 1
