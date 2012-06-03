@@ -11,7 +11,7 @@
 # some bugs fixed by jmztaylor and skippycentral.
 #
 # Thanks to amarullz for the original AROMA installation manifest
-# Added HTC ChaCha as an option - Lucas Arran
+
 
 # [[Build information]]
 #
@@ -23,7 +23,7 @@
 #- Touch screen calibration information
 calibrate("1.9963","19","2.3056","41");
 #- Installer theme
-theme("dotsense2");
+theme("sense");
 #- Name
 ini_set("rom_name",             ".sense");
 #- Version
@@ -205,7 +205,7 @@ agreebox(
 
 menubox(
   #-- Title
-    "Are you new?",
+    "Are you a clever person?",
   
   #-- Sub Title
     "Please select if you want to be shown advance or experimental options.",
@@ -396,7 +396,7 @@ if prop("device.prop","selected")=="4" then
 	  # TITLE            |  SUBTITLE                                                 | Initial Value #
 	  #------------------+-----------------------------------------------------------+---------------#
 
-	    "Modified stock",          "Modified stock to boot with Sense 3.5",                    "@personalize"
+	    "Modified stock",          "Modified stock to boot with Sense 3.5 kernel. But also works on the HTC ChaCha",                    "@personalize"
 
   );
 endif;
@@ -549,7 +549,7 @@ if prop("installtype.prop","selected")=="2" then
     #-- Will be saved in /tmp/aroma/mods.prop
       "mods.prop",
 	  
-#-----------------------------------[ Selectbox With Groups ]----------------------------------#
+      #-----------------------------------[ Selectbox With Groups ]----------------------------------#
 	  # TITLE            |  SUBTITLE                                                 | Initial Value #
 	  #------------------+-----------------------------------------------------------+---------------#
 	  
@@ -807,7 +807,7 @@ checkbox(
 	  #------------------+-----------------------------------------------------------+---------------#
 	  
 	    "Rosie",          "Install normal Sense 3.5 launcher",                    "@----", #1
-		"ChaCha Rosie",          "It's the good old HTC ChaCha Rosie Launcher",                               "@----", #2
+		"Rhyme Rosie",          "Rosie Launcher Mod",                               "@----", #2
 		"Rhyme Rosie",     "Rosie modded to look like the HTC Rhyme",                              "@----", #3
 		"ADW.Launcher",     "One of the most stable launchers yet",                              "@ADW1", #4
 		"GO Launcher EX",     "Themeable, configurable and stable",                              "@GO1", #5
@@ -936,6 +936,8 @@ viewbox(
   #-- Text
     "<#selectbg_g><b>Congratulation...</b></#>\n\n"+
     ".sense has been installed on your HTC ChaCha. "+
+	"Thanks to Benjamin Gwynn for .sense! "+
+	"If you want any news, follow me on twitter @lucasarran "+
 "Installer Status: "+getvar("retstatus"),
 
   #-- Icon
