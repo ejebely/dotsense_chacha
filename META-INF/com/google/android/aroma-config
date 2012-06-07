@@ -559,8 +559,7 @@ if prop("installtype.prop","selected")=="2" then
 		"CM7",     "Fancy a bit of CM7?",                              0,      #-- selected.1 = 3
 	  
           "Keyboard",                "",                                              2,  #-- Group 2. key = "selected.2"
-	    "HTC Keyboard",   "Use only this one for HTC ChaCha",                            1,      #-- selected.2 = 1
-	    "Gingerbread",    "Normal Gingerbread keyboard",                          0,      #-- selected.2 = 2
+	    "Keyboard",   "Only use this for the ChaCha",                            1,      #-- selected.2 = 1
 
 	  "Music",           "",                                                      2,  #-- Group 3. key = "selected.3"
 	    "ICS Music",      "Stable and new with full support for Google Music",    1,      #-- selected.3 = 1
@@ -649,8 +648,7 @@ if prop("installtype.prop","selected")=="1" then
 		"CM7",     "Fancy a bit of CM7?",                              0,      #-- selected.1 = 3
 	  
           "Keyboard",                "",                                              2,  #-- Group 2. key = "selected.2"
-	    "HTC Keyboard",   "Normal HTC Sense keyboard",                            1,      #-- selected.2 = 1
-	    "Gingerbread",    "Normal Gingerbread keyboard",                          0,      #-- selected.2 = 2
+	    "Keyboard",   "Only use this for the ChaCha",                            1,      #-- selected.2 = 1
 
 	  "Music",           "",                                                      2,  #-- Group 3. key = "selected.3"
 	    "ICS Music",      "Stable and new with full support for Google Music",    1,      #-- selected.3 = 1
