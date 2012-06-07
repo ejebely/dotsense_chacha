@@ -580,7 +580,7 @@ if prop("installtype.prop","selected")=="2" then
 		"MIUI Gallery",      "A MIUI-style gallery app",                                      0,      #-- selected.5 = 4
 
 	  "Camera",                "",                                                2,  #-- Group 6. key = "selected.6"
-	    "MIUI",             "Fast and friendly, fully working",                   0,      #-- selected.6 = 1
+	    "AOSP",             "Use if you need Camera working for HTC ChaCha",                   0,      #-- selected.6 = 1
 		"Sense 3.5",        "No option for camera flash",                         0,      #-- selected.6 = 2
 		"Sense 2.1",        "Old camera app from Sense 2.1",                      1,      #-- selected.6 = 3
 
@@ -669,7 +669,7 @@ if prop("installtype.prop","selected")=="1" then
 		"MIUI Gallery",      "A MIUI-Style Gallery app.",                                      0,      #-- selected.5 = 4
 
 	  "Camera",                "",                                                2,  #-- Group 6. key = "selected.6"
-	    "MIUI",             "Fast and friendly, fully working",                   0,      #-- selected.6 = 1
+	    "AOSP",             "Use this if you need the Camera working on ChaCha",                   0,      #-- selected.6 = 1
 		"Sense 3.5",        "No option for camera flash",                         0,      #-- selected.6 = 2
 		"Sense 2.1",        "Old camera app from Sense 2.1",                      1,      #-- selected.6 = 3
 

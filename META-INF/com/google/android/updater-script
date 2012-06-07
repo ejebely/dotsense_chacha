@@ -711,15 +711,8 @@ set_progress(0.5);
     if
       file_getprop("/tmp/aroma/mods.prop","selected.2") == "1"
     then
-      ui_print("Installing HTC ChaCha Stock Keyboard");
+      ui_print("Installing Simple Keyboard");
       package_extract_dir("packages/Keyboard/HTC", "/system/app");
-    endif;
-
-    if
-      file_getprop("/tmp/aroma/mods.prop","selected.2") == "2"
-    then
-      ui_print("Installing Gingerbread keyboard");
-      package_extract_dir("packages/Keyboard/Gingerbread", "/data/app");
     endif;
 
 
@@ -910,8 +903,8 @@ set_progress(0.5);
     if
       file_getprop("/tmp/aroma/mods.prop","selected.6") == "1"
     then
-      ui_print("Installing MIUI Camera...");
-      package_extract_dir("packages/Camera/MIUI", "/system/app");
+      ui_print("Installing AOSP Camera...");
+      package_extract_dir("packages/Camera/AOSP", "/system/app");
     endif;
 
     if
